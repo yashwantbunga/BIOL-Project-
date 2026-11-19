@@ -36,7 +36,7 @@ Repository Contents
 - Lung_Tissue_Classification_Updated_(1).ipynb: executed notebook with data checks, model comparisons, tables, and plots.
 - README.md: project overview and instructions.
 - ai_usage.md: assistance and verification record.
-- Read_ME: an additional copy of the project overview; use this README as the main guide.
+
 Running the Notebook
 1. Download the .ipynb file from this repository and upload it to Google Colab.
 2. Select a CPU runtime and choose Runtime > Run all.
@@ -44,7 +44,7 @@ Running the Notebook
 4. Save the executed notebook with its outputs. The final cell downloads a ZIP of data, figures, scores, and documentation.
 Package versions are printed at the beginning and saved in the output archive. The existing outputs were produced with Python 3.13.18, NumPy 2.4.6, pandas 2.2.3, scikit-learn 1.6.1, matplotlib 3.10.0, and requests 2.32.4. Different software versions may produce different validation folds even with the same seed; use the saved fold assignments when comparing runs.
 AI Use
-ChatGPT assisted with preparing and refining code, explaining steps, debugging errors, and improving documentation. The notebook was executed in Colab, and its assertions check patient separation and sample alignment. Scores and plots are calculated from the run. See ai_usage.md for the assistance record.
+ChatGPT assisted with debuggin and refining code and improving documentation. The notebook was executed in Colab, and its assertions check patient separation and sample alignment. Scores and plots are calculated from the run. See ai_usage.md for the assistance record.
 Limitations
 The analysis uses one small dataset and the original study's processed expression values. Cross-validation performance does not establish clinical usefulness or performance on an independent cohort. Probe sets do not always correspond to unique genes.
 Reference
